@@ -9,13 +9,16 @@ tags:
 authors:
   - name: Andy Wilkins
     orcid: 0000-0001-6472-9560
-    affiliation: CSIRO (Commonwealth Scientific and Industrial Research Organisation)
+    affiliation: 1
   - name: Christopher P. Green
     orcid: 0000-0001-6472-9560
-    affiliation: CSIRO (Commonwealth Scientific and Industrial Research Organisation)
+    affiliation: 1
   - name: Jonathan Ennis-King
     orcid: 0000-0001-6472-9560
-    affiliation: CSIRO (Commonwealth Scientific and Industrial Research Organisation)
+    affiliation: 1
+affiliations:
+  - name: CSIRO (Commonwealth Scientific and Industrial Research Organisation)
+  - index: 1
 date: 13 February 2020
 bibliography: paper.bib
 ---
