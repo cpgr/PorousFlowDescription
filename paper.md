@@ -1,19 +1,22 @@
 ---
-title: 'Gala: A Python package for galactic dynamics'
+title: 'PorousFlow: a multiphysics simulation code for coupled problems in porous media
 tags:
-  - Python
-  - astronomy
-  - dynamics
-  - galactic dynamics
-  - milky way
+  - C++
+  - porous flow
+  - multiphysics
+  - THMC
+  - Darcy flow
 authors:
-  - name: Adrian M. Price-Whelan
-    orcid: 0000-0003-0872-7098
-    affiliation: 1
-affiliations:
- - name: Lyman Spitzer, Jr. Fellow, Princeton University
-   index: 1
-date: 13 August 2017
+  - name: Andy Wilkins
+    orcid: 0000-0001-6472-9560
+    affiliation: CSIRO (Commonwealth Scientific and Industrial Research Organisation)
+  - name: Christopher P. Green
+    orcid: 0000-0001-6472-9560
+    affiliation: CSIRO (Commonwealth Scientific and Industrial Research Organisation)
+  - name: Jonathan Ennis-King
+    orcid: 0000-0001-6472-9560
+    affiliation: CSIRO (Commonwealth Scientific and Industrial Research Organisation)
+date: 13 February 2020
 bibliography: paper.bib
 ---
 
