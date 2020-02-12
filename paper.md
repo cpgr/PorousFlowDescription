@@ -1,5 +1,5 @@
 ---
-title: 'PorousFlow: a multiphysics simulation code for coupled problems in porous media
+title: 'PorousFlow: a multiphysics simulation code for coupled problems in porous media'
 tags:
   - C++
   - porous flow
