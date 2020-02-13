@@ -33,9 +33,14 @@ Transport and flow in porous media are important in many practical fields of res
 
 - Multiphase modelling, such as the simulation of CO$_{2}$ sequestration, H$_{2}$ storage, or methane flows around coal mines.  These simulations involve the interaction and flow of at least two fluid phases (e.g. gas and water).  Changes in temperature often impact these flows, and realistic equations of state for the fluids involved are necessary.  For instance, CO$_{2}$ sequestration typically involves pumping high-pressure, cold CO$_{2}$ into a warmer aquifer filled with brine.  The CO$_{2}$ heats and dissolves into the brine, causing changes in its density and flow characteristics.  In many of these models, the altered pressure and temperature can cause mechanical failure of the subsurface, and hence the creation of new flow paths and potential microseismicity.
 
+Other situations where porous-flow physics is used include oil and gas production, nuclear waste repositories and chemical leaching.
+
 In many of these examples it is not enough to simply solve simplistic, traditional flow and transport physics.  Coupling with other physics is necessary: solid mechanical deformations and stresses can be important; geochemistry can alter the flow characteristics of the subsurface; high-precision equations of state are required; the evolution of fluid components (tracers, pollutants, reactants) is of interest.  The flow and transport often impacts the subsurface structure, and conversely, the effects of these structure changes impact the flow and transport.
 
-The ``PorousFlow`` module of the open-source, multiphysics simulation framework called ``MOOSE`` allows simulation of all these physical phenomenon.
+Simulating these situations can be challenging in practice, as many existing simulation codes that are widely used focus on only a subset of physical processes, and therefore accurate modelling often requires the use of several loosely-coupled software packages.  On the other hand, the ``PorousFlow`` module of allows simulation of all these physical phenomenon.
+
+``PorousFlow`` is built upon the open-source, massively parallel, fully implicity multiphysics simulation framework called MOOSE (the Multiphysics Object-Oriented Simulation Environment) [@permann2019moose]  MOOSE is an open-source library from the Idaho National Laboratory that provides a high-level interface to the libMesh finite element library [@libmesh] and PETSc nonlinear
+solvers [@petsc].
 
 The forces on stars, galaxies, and dark matter under external gravitational
 fields lead to the dynamical evolution of structures in the universe. The orbits
