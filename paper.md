@@ -11,7 +11,7 @@ authors:
     orcid: 0000-0001-6472-9560
     affiliation: 1
   - name: Christopher P. Green
-    orcid: 0000-0001-6472-9560
+    orcid: 0000-0002-7315-6597
     affiliation: 1
   - name: Jonathan Ennis-King
     orcid: 0000-0002-4016-390X
