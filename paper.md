@@ -42,6 +42,6 @@ Simulating these situations can be challenging in practice, as many existing sim
 ``PorousFlow`` is built upon the open-source, massively parallel, fully implicity multiphysics simulation framework called MOOSE (the Multiphysics Object-Oriented Simulation Environment) [@permann2019moose]  MOOSE is an open-source library from the Idaho National Laboratory that provides a high-level interface to the libMesh finite element library [@libmesh] and PETSc nonlinear
 solvers [@petsc].
 
-The source code for ``PorousFlow`` is bundled within the MOOSE framework [@moosegit] and detailed documentation found at [@porousflowdocumentation].
+For convenience, the source code for ``PorousFlow``, https://github.com/idaholab/moose/tree/master/modules/porous_flow, is bundled within the MOOSE framework, https://github.com/idaholab/moose, and detailed documentation found at https://mooseframework.org/modules/porous_flow/index.html.
 
 # References
