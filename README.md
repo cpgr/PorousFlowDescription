@@ -1,6 +1,6 @@
 # PorousFlow
 
-The PorousFlow module of MOOSE enables the simulation of flow and transport through porous media
+The PorousFlow module of MOOSE enables the simulation of flow and transport through porous media.
 
 ## Use
 
@@ -12,31 +12,35 @@ PorousFlow documentation can be found at https://mooseframework.org/modules/poro
 - implementation details
 
 New PorousFlow users who have never used MOOSE before are encouraged to check-out its
-[tutorial](https://mooseframework.org/workshop/) and [examples](https://mooseframework.org/examples/index.html).
+[workshop](https://mooseframework.org/workshop/) and [examples](https://mooseframework.org/examples/index.html).
 
-Doxygen pages for PorousFlow are at https://mooseframework.org/docs/doxygen/modules/classes.html
+Doxygen pages for PorousFlow are at https://mooseframework.org/docs/doxygen/modules/classes.html.  In particular, navigate to the letter "P" and explore the `PorousFlow*` classes.
 
 ## License
 
-PorousFlow is distributed with MOOSE under the [Gnu Lesser General Public License](https://github.com/idaholab/moose/blob/master/LICENSE)
+PorousFlow is distributed with MOOSE under the [Gnu Lesser General Public License, Version 2.1](https://github.com/idaholab/moose/blob/master/LICENSE)
 
 ## Install
 
-PorousFlow comes packaged with the MOOSE framework.  To install MOOSE and PorousFlow, please follow the instructions at https://mooseframework.inl.gov/getting_started/index.html.  After building and testing MOOSE you will need to build PorousFlow, which is an easy step:
+PorousFlow comes packaged with the MOOSE framework.  To install MOOSE and PorousFlow, please follow the instructions at https://mooseframework.org/getting_started/index.html.  After building and testing MOOSE you will need to build PorousFlow, which is an easy step:
+
 ``
-cd <path_to_moose>/modules/porous_flow
+cd <path_to_moose>/modules/porous_flow ; 
 make
 ``
+
 You may optionally use `make -j8` if your system has 8 available cores (or `-j4` if it has 4, etc).
 
 
 ## Testing
 
 PorousFlow comes with hundreds of tests.  To ensure it is running correctly:
+
 ``
-cd <path_to_moose>/modules/porous_flow
+cd <path_to_moose>/modules/porous_flow ;
 ./run_tests
 ``
+
 You may optionally use `./run_tests -j8` if your system has 8 available cores (or `-j4` if it has 4, etc).
 
 ## Contributing
